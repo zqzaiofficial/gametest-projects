@@ -23,7 +23,10 @@ world.afterEvents.entityHurt.subscribe((data) => {
     if (lore.match(/Enchants:/g)) {
         for (var i = 0; i < attckerItem.getLore().length; i++) {
             if (lore.match(/Lightning/g)) {
-                switch (lore.match(/Lightning ([0-9]+)/g).groups()[0]) {
+                var level = lore.match(/Lightning [IV]+/g);
+                level = level[0].replace('Lightning ', '');
+                // Extracting the level from the lore.
+                switch (level) {
                   case 'I':
                     if (randomInt == 1) {
                       attacker.runCommandAsync(`title @s actionbar §b§l** LIGHTNING ACTIVATED **`);
