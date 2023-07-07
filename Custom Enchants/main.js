@@ -4,7 +4,7 @@
 //                                                                                                               //
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-import { system, world, EntityHitAfterEvent } from "@minecraft/server";
+import { system, world } from "@minecraft/server";
 
 // When an entity is hurt, this event is called.
 world.afterEvents.entityHurt.subscribe((data) => {
