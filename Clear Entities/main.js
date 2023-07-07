@@ -6,7 +6,7 @@
 
 import { system, world } from "@minecraft/server";
 
-// Every 5 minutes this function will run
+// Every 3 minutes this function will run
 system.runInterval(() => {
     for (const player of world.getPlayers()) {
         // We get all players that are in the world and then we execute the following code for each player
