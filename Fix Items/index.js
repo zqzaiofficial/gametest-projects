@@ -1,3 +1,9 @@
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                                            //
+// This is property of Zqzai AND Asteroid, you may reuse this code as long as you give credit. Do NOT claim this as your own. //
+//                                                                                                                            //    
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 import { world } from '@minecraft/server';
 
 world.afterEvents.chatSend.subscribe((data) => {
