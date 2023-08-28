@@ -1,4 +1,4 @@
-# 🌟 Minecraft ScriptAPI Packages 🌟
+# 🌟 ScriptAPI Packages 🌟
 
 Welcome to the official repository for Minecraft ScriptAPI packages! This repository contains a collection of public packages that provide useful tools and functionalities for Minecraft modders and script developers.
 
